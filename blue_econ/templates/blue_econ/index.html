@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+	<title>Blue Economy</title>
+       <!-- Load font awesome icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		{# Custom CSS#}
+		<link rel="stylesheet" href="{% static "css/main.css" %}">
+<!-- Header -->
+      <header id="header" class="skel-layers-fixed">
+        <h1><a href="#header" style="font-size: 24px;"><b>BLUE ECONOMY</b></a></h1>
+        <nav id="nav">
+          <ul>
+            <li><a class="active" href="{% url 'index' %}">Home</a></li>
+            <li><a href="{% url 'Library' %}">Library</a></li>
+            <li><a href="{% url 'Activities' %}">Activities</a></li>
+						<li><input type="text" placeholder="Search.."></li>
+            <li><a href="#footer">Contact</a></li>
+
+            <!-- <li><a href="#" class="button special">Comments</a></li> -->
+
+          </ul>
+        </nav>
+      </header>
+
+
+</head>
+<body style="background-color: #cce6ff;">
+
+
+<!-- container with the image -->
+  <div class="containeri">
+    <div class="blue">
+      <img src={% static "images/cc.jpg" %} alt="Snow" style="width:100%; height: 50%;">
+      <div class="bottom-left1" style="font-size: 21px; text-align: center; padding-bottom: 50px;">WHAT IS BLUE ECONOMY?
+      <p id="par" style="font-size: 16px;">It is the overall contribution of the oceans to economies,the need to address the environmental and ecological sustainability of the oceans, and the oceans economy as a growth opportunity for both developed and developing countries.
+      Secretary-General Patricia Scotland: “The Blue Charter will help countries develop an integrated approach to the building of the blue economy, one which considers the value of often overlooked sectors such as artisanal fishing as well as the role of women and young people.”</p>
+      <p><i>-Source:The centre for the blue economy</i></p>
+      <p><i>-Source:http://thecommonwealth.org/blue-economy</i></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="padding-top: 20px; padding-bottom: 15px;">
+    <div class="row">
+      <div class="column">
+        <h1 style="font-family: "Courrier New",Monospace; color: #cc9900;"><b>Aims of the Blue Economy</b></h1>
+
+        <p></p>
+        <ol style="font-size: 20px;"><i>
+          <li>Building a sustainable and eco-friendly economy in East Africa.</li>
+          <li>Creating awareness on 'blue' economy. This will help empower people from all walks of life and also help in the conservative measures of the environment emulating countries such as Finland but applied to a larger scale.
+          </li>
+          <li>Aims at the improvement of human well being and social equity,while significantly reducing environmental
+          risks and ecological scarcities similar to 'Green Economy'.</li>
+        </i></ol>
+      </div>
+      <div class="column">
+        <h3><b>In accordance with the blue economy  finance principles blue economy also aims at:</b></h3>
+        <ol style="font-size: 20px;">
+          <li>Promote the implementation of the Sustainable Development Goals(SDGs).</li>
+          <li>Set out ocean specific standards while avoiding the duplicate of existing frameworks for responsive invesment. </li>
+          <li>Comply with IFC performance standards and EIB environmental and social principles and standards.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+ <div class="container" style="padding-top: 10px;">
+      <div class="jumbotron">
+        <h2 id="wewe" ><u>What blue economy is all about</u></h2>
+        <img src="https://www.un.org/africarenewal/sites/www.un.org.africarenewal/files/blue_economy.png" ">
+				<p style="font-size: 10px; padding-bottom:150px;">Picture Source:'https://www.un.org/africarenewal/sites/www.un.org.africarenewal'</p>
+        <p><b><Source:'https://www.un.org/africarenewal/sites/www.un.org.africarenewal'<b><br>
+          Looking at Blue economy it basically helps us answer the question of:<br><em><u>How do we help ocean and other water bodies help us but also future generations?</u></em><br>
+        It all has to start with nurging the locals and build itself up all the way to the bigger institutions like the government. Blue economy encompasses not just the economical aspect but also the improvement of the lives in areas where it is applied. With illustration like In Malaysia: Where Blue economy investment opportunities are focusing on green ports and shipping. This has generated a host of supporting economic activities, such as port operations, shipbuilding and ship repair, logistics, financing, and many others that generate income, employment, investment and other multiplier effects to the Malaysia’s economy. Their ports and shipping sector is poised towards greater benefits that could be gained through green development; </p>
+      </div>
+
+      <!-- <div class="jumbotron">
+      <h1>Goals</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div> -->
+    </div>
+
+<!-- style="font-size: 32px; padding-bottom: 10px;" -->
+	<!-- Footer -->
+			<footer id="footer" style="background-color:#001a33;">
+        <div class="container">
+        <a href="https://www.facebook.com" class="fa fa-facebook"style="font-size: 32px;"></a>
+        <a href="https://www.twitter.com" class="fa fa-twitter"style="font-size: 32px;"></a><br>
+				<p style="font-size:14px;">Designed by:francis Macharia</p>
+        </div>
+			</footer>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+	<title>Blue Economy</title>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		{# Custom css#}
+		<link rel="stylesheet" href="{% static "css/main.css" %}">
+<!-- The navigation bar -->
+	 <!-- Header -->
+      <header id="header" class="skel-layers-fixed">
+        <h1><a href="#header" style="font-size: 24px;"><b>BLUE ECONOMY</b></a></h1>
+        <nav id="nav">
+          <ul>
+            <li><a class="active" href="{% url 'index' %}">Home</a></li>
+            <li><a href="{% url 'Library' %}">Library</a></li>
+            <li><a href="{% url 'Activities' %}">Activities</a></li>
+						<li><input type="text" placeholder="Search.."></li>
+            <li><a href="#footer">Contact</a></li>
+
+            <!-- <li><a href="#" class="button special">Comments</a></li> -->
+
+          </ul>
+        </nav>
+      </header>
+</div>
+
+</head>
+<body style="background-color: #cce6ff;">
+   <div class="containeri2" >
+  <img src={% static "images/lake2.jpg" %} alt="Snow" style="width:100%; height: 500px;">
+  <div class="centered" style="font-size: 38px;">Library</div>
+	<div class="Bottom-left2">Source:Fisherman Wooden Fishing Boat Lake Victoria Tanzania | by eriagn</div>
+ </div><br>
+
+
+<div class="container">
+  <div class="row">
+    <div class="column" style="text-align: auto; font-size: 20px;">
+      <p style="color: #e6f2ff ;text-decoration:underline;"><b><i>
+        This is section helps you identify the various publications that have been made so as one can get a brief overview of what the blue economy is all about. They include:
+      </i></b></p><br>
+      </div>
+      <div class="column" style="text-align: auto; font-size: 20px;">
+        <p style="color: #001a33;"><b>Over the years there has been documentation of the various events,information and also policies that have been developed.<br>
+        In these reports and publications you will be able to learn about:</b>
+        <ol>
+          <li>The details of what was discussed in the conference held in Kenya on advancing Global Sustainable Blue Economy.</li><br>
+          <li>How the United Nations and the rest of the world plans on implementing the Blue Economy policies.</li><br>
+          <li>It will help boost ones knowledge by looking at what has already been implemented and how we can grow from that.</li><br>
+          <li>These documents act as a reference to what has already been implemented and enable one to easily go back and talked about in the previous sessions.</li><br>
+
+
+        </ol>
+      </p>
+      </div>
+    </div>
+  </div><br>
+          <h2>Available Resources...
+          </h2>
+        <div class="container">
+  <div class="row">
+    <div class="column" style="text-align: auto; font-size: 20px;">
+      <p>Nairobi statement on advancing the global sustainable blue-economy:</p>
+      <a href='http://www.blueeconomyconference.go.ke/wp-content/uploads/2018/12/Nairobi-Statement-of-Intent-Advancing-Global-Sustainable-Blue-Economy.pdf'><button type="button" class="block"><b>Statement document</b></button></a>
+      </div>
+      <div class="column" style="text-align: auto; font-size: 20px;">
+        <p>Report on the global sustainable Blue Economy conference held on 26th-28th November 2018 in Nairobi Kenya:</p>
+        <a href='http://www.blueeconomyconference.go.ke/wp-content/uploads/2018/12/SBEC-FINAL-REPORT-8-DECEMBER-2018-rev-2-1-2-PDF2-3-compressed.pdf'><button type="button" class="block"><b>Nairobi Report</b></button></a><br>
+
+      </div>
+    </div>
+  </div><br>
+  <div class="container">
+  <div class="row">
+    <div class="column" style="text-align: auto; font-size: 20px;">
+      <p>The 2018 conference concept paper:</p>
+      <a href='http://www.blueeconomyconference.go.ke/wp-content/uploads/2018/11/Conference-Concept-Paper-compressed.pdf'><button type="button" class="block"><b>Concept Paper</b></button></a>
+      </div>
+      <div class="column" style="text-align: auto; font-size: 20px;">
+        <p>The main theme of blue economy and the 2030 agenda for sustainable development:</p>
+        <a href='http://www.blueeconomyconference.go.ke/wp-content/uploads/2018/10/Main-Theme-compressed.pdf'><button type="button" class="block"><b>Main Theme</b></button></a><br>
+      </div>
+    </div>
+  </div><br>
+
+
+	<!-- Footer -->
+			<footer id="footer" style="background-color:#001a33;">
+				<div class="container">
+          <!-- Load font awesome icons -->
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <!-- Add font awesome icons -->
+        <a href="#" class="fa fa-facebook"style="font-size: 32px;"></a>
+        <a href="#" class="fa fa-twitter" style="font-size: 32px;"></a>
+				</div>
+			</footer>
+
+</body>
+</html>

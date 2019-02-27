@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+	<title>Blue Economy</title>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		{#Custom css#}
+		<link rel="stylesheet" href="{% static "css/main.css" %}">
+<!-- The navigation bar -->
+	 <!-- Header -->
+      <header id="header" class="skel-layers-fixed">
+        <h1><a href="#header" style="font-size: 24px;"><b>BLUE ECONOMY</b></a></h1>
+        <nav id="nav">
+          <ul>
+            <li><a class="active" href="{% url 'index' %}">Home</a></li>
+            <li><a href="{% url 'Library' %}">Library</a></li>
+            <li><a href="{% url 'Activities' %}">Activities</a></li>
+						<li><input type="text" placeholder="Search.."></li>
+            <li><a href="#footer">Contact</a></li>
+
+            <!-- <li><a href="#" class="button special">Comments</a></li> -->
+
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Load font awesome icons -->
+ <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+<!-- The social media icon bar -->
+<!-- <div class="icon-bar"> -->
+  <!-- <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>  -->
+  <!-- <a href="https://twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>  -->
+
+</div>
+
+</head>
+<body  style="background-color: #cce6ff;">
+
+   <div class="containeri2" >
+  <img src="{% static "images/activity.jpg" %}" alt="Snow" style="width:100%; height: 400px;">
+  <div class="centered" style="font-size: 38px;">Activities</div>
+	<div class="Bottom-left2">From:https//www.azomining.com/images/Article Images/ImageForArticle1357(1).jpg</div>
+ </div>
+
+<br>
+
+ <div class="container">
+  <div class="row">
+    <div class="column" style="text-align: auto; font-size: 20px;">
+      <p><b>Do not miss Nor-Shipping Blue Economy Hall</b></p>
+			<p>Date : 04-07-19</p>
+      <a href='http://www.nor-shipping.com/blue-economy-hall/'><button type="button" class="block"><b>Check it out</b></button></a>
+      </div>
+      <div class="column" style="text-align: auto; font-size: 20px;">
+        <p><b>Do not miss the World Ocean Summit 2019:</b></p>
+				<p>5th - 7th/03/19</p>
+        <a href='https://www.woi.economist.com/world-ocean-summit/'><button type="button" class="block"><b>Check it out</b></button></a><br>
+        <!-- <p>Other activities as they become available</p> -->
+      </div>
+    </div>
+  </div>
+
+
+
+ <div class="container">
+  <div class="row">
+    <div class="column" style="text-align: auto; font-size: 20px;">
+      <p ><b>
+        <!-- There are always upcoming events that are used for addressing various issues from social to economical issues
+        that push the Blue Economy ideals -->
+				Activities will be updated regularly..
+      </b></p><br>
+      </div>
+		</div>
+		<div class="row">
+      <div class="column" style="text-align: auto; font-size: 20px;">
+        <p style="color:#001a33;"><b>Different countries in the world all year round hold different events that are geared to
+          growing and networking the Blue Economy community.</b><br>
+        In these events you will be able to learn about:
+        <ol>
+          <li>The latest policing in financing the initiative.</li><br>
+          <li>The impact of women in the initiative and how we can better recognise their efforts.</li><br>
+          <li>The role of the local community in the growth and continued development of the initiative.</li><br>
+          <li>Developing better initiatives so as to reach more people supporting the initiative.</li><br>
+          <li>Measures being developed to curtail the continued disruption of marine life.</li><br>
+          <li>How to network with different organizations and people so as to faster reach the Blue Economy goal.</li><br>
+
+
+        </ol>
+      </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+	<!-- Footer -->
+			<footer id="footer" style="background-color:#001a33;">
+				<div class="container" style="font-size: 10px;">
+          <!-- Load font awesome icons -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <!-- Add font awesome icons -->
+          <!-- <link rel="stylesheet" type="text/css" href="https://www.facebook.com" class="fa fa-facebook"> -->
+        <a href="https://www.facebook.com" class="fa fa-facebook" style="font-size: 32px;"></a>
+        <a href="https://www.twitter.com" class="fa fa-twitter" style="font-size: 32px;"></a>
+				</div>
+			</footer>
+
+</body>
+</html>
